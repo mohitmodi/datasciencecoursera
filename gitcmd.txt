@@ -1,0 +1,60 @@
+    1  ls
+    2  pwd
+    3  clear
+    4  cd D:
+    5  pwd
+    6  cd Coursera/
+    7  mkdir "Data Science Toolbox"
+    8  ls
+    9  cd Data Science Toolbox
+   10  cd ..
+   11  cd Coursera
+   12  cd Data Science
+   13  ls
+   14  cd Data Science Toolbox
+   15  cd Data Science Toolbox
+   16  cd "Data Science Toolbox"
+   17  ls
+   18  cd /
+   19  pwd
+   20  cd d/
+   21  cd "Coursera"
+   22  cd "Data Science Toolbox"
+   23  ls
+   24  ls -al
+   25  git config --list
+   26  mkdir datasciencecoursera
+   27  cd datasciencecoursera/
+   28  git init
+   29  git remote add origin https://github.com/mohitmodi/datasciencecoursera.git
+   30  touch HelloWorld.md
+   31  echo "## This is a markdown file" > HelloWorld.md 
+   32  cat HelloWorld.md 
+   33  git add -A
+   34  ls
+   35  git commit -m "Hello World File Added"
+   36  git push
+   37  ls
+   38  git pull
+   39  ls
+   40  git push
+   41  git commit -m "Hello World File Added"
+   42  git pull
+   43  git pull master
+   44  ls
+   45   git branch --set-upstream-to=origin/<branch> master
+   46  git status -s
+   47  git fetch datasciencecoursera
+   48  git fetch github
+   49  git fetch
+   50  git status -s
+   51  git pull
+   52  git remote -v
+   53  git fetch https://github.com/mohitmodi/datasciencecoursera.git
+   54  git pull https://github.com/mohitmodi/datasciencecoursera.git
+   55  git remote add datasciencecoursera https://github.com/mohitmodi/datasciencecoursera.git
+   56  ls
+   57  git push datasciencecoursera master
+   58  history
+   59  touch history.txt
+   60  history > history.txt
